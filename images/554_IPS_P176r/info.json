@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 195,
+    "height" : 135
+  }, {
+    "width" : 389,
+    "height" : 269
+  }, {
+    "width" : 778,
+    "height" : 537
+  }, {
+    "width" : 1555,
+    "height" : 1073
+  }, {
+    "width" : 3110,
+    "height" : 2146
+  }, {
+    "width" : 6219,
+    "height" : 4292
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 6219,
+  "@id" : "https://jbanic.github.io/fontes/images/554_IPS_P176r",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 4292
+}
