@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 6240,
+    "id" : "https://jbanic.github.io/fontes/images/554_IPS_P177r/canvas/",
+    "label" : {
+      "none" : [ "554_IPS_P177r" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://jbanic.github.io/fontes/images/554_IPS_P177r/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://jbanic.github.io/fontes/images/554_IPS_P177r/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 195,
+              "height" : 134
+            }, {
+              "width" : 390,
+              "height" : 267
+            }, {
+              "width" : 780,
+              "height" : 534
+            }, {
+              "width" : 1560,
+              "height" : 1067
+            }, {
+              "width" : 3120,
+              "height" : 2133
+            }, {
+              "width" : 6240,
+              "height" : 4265
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 6240,
+            "@id" : "https://jbanic.github.io/fontes/images/554_IPS_P177r",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 4265
+          } ],
+          "format" : "image/jpeg",
+          "width" : 6240,
+          "id" : "https://jbanic.github.io/fontes/images/554_IPS_P177r/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 4265
+        },
+        "target" : "https://jbanic.github.io/fontes/images/554_IPS_P177r/canvas/"
+      } ]
+    } ],
+    "height" : 4265
+  }, {
     "width" : 6219,
     "id" : "https://jbanic.github.io/fontes/images/554_IPS_P176r/canvas/",
     "label" : {
