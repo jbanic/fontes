@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 1713,
+    "id" : "https://jbanic.github.io/fontes/images/559_PPI_B_25v/canvas/",
+    "label" : {
+      "none" : [ "559_PPI_B_25v" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://jbanic.github.io/fontes/images/559_PPI_B_25v/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://jbanic.github.io/fontes/images/559_PPI_B_25v/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 54,
+              "height" : 74
+            }, {
+              "width" : 108,
+              "height" : 148
+            }, {
+              "width" : 215,
+              "height" : 295
+            }, {
+              "width" : 429,
+              "height" : 590
+            }, {
+              "width" : 857,
+              "height" : 1180
+            }, {
+              "width" : 1713,
+              "height" : 2360
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 1713,
+            "@id" : "https://jbanic.github.io/fontes/images/559_PPI_B_25v",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2360
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1713,
+          "id" : "https://jbanic.github.io/fontes/images/559_PPI_B_25v/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 2360
+        },
+        "target" : "https://jbanic.github.io/fontes/images/559_PPI_B_25v/canvas/"
+      } ]
+    } ],
+    "height" : 2360
+  }, {
     "width" : 6220,
     "id" : "https://jbanic.github.io/fontes/images/554_IPS_P178r/canvas/",
     "label" : {
