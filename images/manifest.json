@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 1400,
+    "id" : "https://jbanic.github.io/fontes/images/559_PPI_B26r/canvas/",
+    "label" : {
+      "none" : [ "559_PPI_B26r" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://jbanic.github.io/fontes/images/559_PPI_B26r/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://jbanic.github.io/fontes/images/559_PPI_B26r/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 44,
+              "height" : 64
+            }, {
+              "width" : 88,
+              "height" : 127
+            }, {
+              "width" : 175,
+              "height" : 253
+            }, {
+              "width" : 350,
+              "height" : 506
+            }, {
+              "width" : 700,
+              "height" : 1012
+            }, {
+              "width" : 1400,
+              "height" : 2023
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 1400,
+            "@id" : "https://jbanic.github.io/fontes/images/559_PPI_B26r",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2023
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1400,
+          "id" : "https://jbanic.github.io/fontes/images/559_PPI_B26r/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 2023
+        },
+        "target" : "https://jbanic.github.io/fontes/images/559_PPI_B26r/canvas/"
+      } ]
+    } ],
+    "height" : 2023
+  }, {
     "width" : 1713,
     "id" : "https://jbanic.github.io/fontes/images/559_PPI_B25v/canvas/",
     "label" : {
