@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 5595,
+    "id" : "https://jbanic.github.io/fontes/images/560_VF1_3r/canvas/",
+    "label" : {
+      "none" : [ "560_VF1_3r" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://jbanic.github.io/fontes/images/560_VF1_3r/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://jbanic.github.io/fontes/images/560_VF1_3r/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 175,
+              "height" : 126
+            }, {
+              "width" : 350,
+              "height" : 251
+            }, {
+              "width" : 700,
+              "height" : 502
+            }, {
+              "width" : 1399,
+              "height" : 1004
+            }, {
+              "width" : 2798,
+              "height" : 2007
+            }, {
+              "width" : 5595,
+              "height" : 4014
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 5595,
+            "@id" : "https://jbanic.github.io/fontes/images/560_VF1_3r",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 4014
+          } ],
+          "format" : "image/jpeg",
+          "width" : 5595,
+          "id" : "https://jbanic.github.io/fontes/images/560_VF1_3r/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 4014
+        },
+        "target" : "https://jbanic.github.io/fontes/images/560_VF1_3r/canvas/"
+      } ]
+    } ],
+    "height" : 4014
+  }, {
     "width" : 1420,
     "id" : "https://jbanic.github.io/fontes/images/559_PL1_B_34v/canvas/",
     "label" : {
