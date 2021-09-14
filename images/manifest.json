@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 7990,
+    "id" : "https://jbanic.github.io/fontes/images/591_GS/canvas/",
+    "label" : {
+      "none" : [ "591_GS" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://jbanic.github.io/fontes/images/591_GS/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://jbanic.github.io/fontes/images/591_GS/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 250,
+              "height" : 178
+            }, {
+              "width" : 500,
+              "height" : 356
+            }, {
+              "width" : 999,
+              "height" : 711
+            }, {
+              "width" : 1998,
+              "height" : 1422
+            }, {
+              "width" : 3995,
+              "height" : 2843
+            }, {
+              "width" : 7990,
+              "height" : 5686
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 7990,
+            "@id" : "https://jbanic.github.io/fontes/images/591_GS",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 5686
+          } ],
+          "format" : "image/jpeg",
+          "width" : 7990,
+          "id" : "https://jbanic.github.io/fontes/images/591_GS/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 5686
+        },
+        "target" : "https://jbanic.github.io/fontes/images/591_GS/canvas/"
+      } ]
+    } ],
+    "height" : 5686
+  }, {
     "width" : 5595,
     "id" : "https://jbanic.github.io/fontes/images/560_VF1_3v2/canvas/",
     "label" : {
