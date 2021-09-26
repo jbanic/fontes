@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 3383,
+    "id" : "https://jbanic.github.io/fontes/images/546_LPR_17r/canvas/",
+    "label" : {
+      "none" : [ "546_LPR_17r" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://jbanic.github.io/fontes/images/546_LPR_17r/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://jbanic.github.io/fontes/images/546_LPR_17r/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 106,
+              "height" : 148
+            }, {
+              "width" : 212,
+              "height" : 295
+            }, {
+              "width" : 423,
+              "height" : 589
+            }, {
+              "width" : 846,
+              "height" : 1178
+            }, {
+              "width" : 1692,
+              "height" : 2355
+            }, {
+              "width" : 3383,
+              "height" : 4709
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 3383,
+            "@id" : "https://jbanic.github.io/fontes/images/546_LPR_17r",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 4709
+          } ],
+          "format" : "image/jpeg",
+          "width" : 3383,
+          "id" : "https://jbanic.github.io/fontes/images/546_LPR_17r/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 4709
+        },
+        "target" : "https://jbanic.github.io/fontes/images/546_LPR_17r/canvas/"
+      } ]
+    } ],
+    "height" : 4709
+  }, {
     "width" : 3449,
     "id" : "https://jbanic.github.io/fontes/images/546_LPR_16v/canvas/",
     "label" : {
